@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Michael's Tekna Site</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #0ff;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    button {
+      background-color: #0ff;
+      color: #111;
+      padding: 12px 24px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Tekna's World!</h1>
+  <p>This is your epic first page. LET'S GOOOO 🔥</p>
+  <button onclick="alert('Hey there, Tekna!')">Click me</button>
+</body>
+</html>
