@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tekna's Website</title>
+  <style>
+    body {
+      background-color: black;
+      color: cyan;
+      text-align: center;
+      font-family: sans-serif;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    button {
+      background: cyan;
+      color: black;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Tekna's Card World!</h1>
+  <p>This is the first website made by Michael!</p>
+  <button onclick="alert('You clicked Tekna’s special button!')">Click me</button>
+</body>
+</html>
